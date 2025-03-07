@@ -14,8 +14,8 @@
   ],
   "rewrites": [
     {
-      "src": "/medicalassistant",
-      "dest": "/medicalassistant.html"
+      "source": "/medicalassistant",
+      "destination": "/medicalassistant.html"
     }
   ]
 }
