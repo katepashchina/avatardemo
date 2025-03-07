@@ -13,7 +13,7 @@
     },
     {
       "src": "/medicalassistant",
-      "dest": "medicalassistant.html"
+      "dest": "/medicalassistant.html"
     }
   ]
 }
