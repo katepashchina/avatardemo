@@ -10,7 +10,9 @@
     {
       "src": "/(.*)",
       "dest": "unith_con.py"
-    },
+    }
+  ],
+  "rewrites": [
     {
       "src": "/medicalassistant",
       "dest": "/medicalassistant.html"
