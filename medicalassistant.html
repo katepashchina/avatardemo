@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пример Iframe</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
         }
         iframe {
-            width: 80%;
-            height: 500px;
-            border: 2px solid #ccc;
-            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            display: block;
         }
     </style>
 </head>
 <body>
-
-    <h1>Встроенный сайт через iframe</h1>
     <iframe src="https://chat.unith.ai/Graphlogic-69/medicaldemoassistant-10495?api_key=ac278af7ed64416e9a5c04c1b992c899"
 width=900px height=400px allow="microphone"></iframe>
-
 </body>
 </html>
