@@ -6,10 +6,14 @@
       "use": "@vercel/python"
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/medicalassistantdemo",
-      "destination": "/medicalassistant.html"
+      "src": "/(.*)",
+      "dest": "unith_con.py"
+    },
+    {
+      "src": "/demo",
+      "dest": "/medicalassistant.html"
     }
   ]
 }
