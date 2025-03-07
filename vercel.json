@@ -12,8 +12,8 @@
       "dest": "unith_con.py"
     },
     {
-      "src": "/demo",
-      "dest": "/medicalassistant.html"
+      "src": "/medicalassistant",
+      "dest": "medicalassistant.html"
     }
   ]
 }
