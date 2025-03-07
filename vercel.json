@@ -10,10 +10,6 @@
     {
       "src": "/(.*)",
       "dest": "unith_con.py"
-    },
-    {
-      "src": "/demo",
-      "dest": "/medicalassistant.html"
     }
   ]
 }
